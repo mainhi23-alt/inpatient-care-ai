@@ -12,7 +12,7 @@ export default async function handler(req, res) {
 
   const models = [
     'gemini-3.8-flash',
-    'gemini-2.5-flash-lite'
+    'gemini-3.5-flash-lite'
   ];
 
   let lastError = 'Lỗi kết nối tới Gemini API';
